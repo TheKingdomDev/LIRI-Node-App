@@ -1,0 +1,29 @@
+{
+  "name": "liriapp",
+  "version": "1.0.0",
+  "description": "command line bot",
+  "main": "liri.js",
+  "scripts": {
+    "test": "spotify-this-song"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheKingdomDev/LIRI-Node-App.git"
+  },
+  "keywords": [
+    "Spotify",
+    "Twitter",
+    "IMDB"
+  ],
+  "author": "Eric King",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheKingdomDev/LIRI-Node-App/issues"
+  },
+  "homepage": "https://github.com/TheKingdomDev/LIRI-Node-App#readme",
+  "dependencies": {
+    "request": "^2.81.0",
+    "spotify": "^0.3.0",
+    "twitter": "^1.7.0"
+  }
+}

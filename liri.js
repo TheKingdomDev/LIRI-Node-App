@@ -3,14 +3,14 @@ var request = require('request');
 var spotify = require('spotify');
 var Twitter = require('twitter');
 //var omdb = require('omdb')
-var inquirer = require('inquirer');
+// var inquirer = require('inquirer');
 var fs = require('fs');
 
 
 //LIRI BOT - Command line bot that executes commands based on input
 
 //Grab user input with process.argv
-var inputString = proces.argv;
+var inputString = process.argv;
 
 var userInput = inputString[2];
 var userSearch = inputString[3];
@@ -19,7 +19,7 @@ var userSearch = inputString[3];
 
 //create a switch case to execute all of the functions based on the command entered
 
-functions userCommand(userInput, userSearch) {
+function userCommand(userInput, userSearch) {
 
     switch (userInput){
         case "my-tweets":
