@@ -105,7 +105,7 @@ function reqSongs(){
 	    	for(i=0; i<data.tracks.items.length; i++){
                 //store it
 	    		var track = data.tracks.items[i];
-                //check if they match and call the show song function
+                // check if they match and call the show song function
 	    		if (track.name.toLowerCase() === userSearch.toLowerCase()){
 	    			showSong(track);
 	    			return;
