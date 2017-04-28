@@ -21,3 +21,28 @@
 {"tweetNumber":6,"tweetText":"Super pumped to be working with Node.js","tweetTime":"Thu Apr 20 17:39:43 +0000 2017"}
 {"tweetNumber":7,"tweetText":"Getting married in 2 days, super excited!","tweetTime":"Thu Apr 20 17:38:24 +0000 2017"}
 {"tweetNumber":8,"tweetText":"Coding on the brain! Ready to tackle the next project!","tweetTime":"Thu Apr 20 17:15:49 +0000 2017"}
+{"tweetNumber":0,"tweetText":"RT @JavaScriptDaily: Using Harmonica to Programmatically Use Node's '--harmony' Options: https://t.co/54Bc5Nlz10","tweetTime":"Tue Apr 25 21:46:55 +0000 2017"}
+{"tweetNumber":1,"tweetText":"RT @JavaScriptDaily: Why TypeScript Is Growing More Popular: https://t.co/QEZObJLX67 https://t.co/l6kixjA1fQ","tweetTime":"Tue Apr 25 21:34:50 +0000 2017"}
+{"tweetNumber":2,"tweetText":"RT @_ericelliott: Highest rated qualities of software developers:\n1. Problem solving\n2. Skills\n3. Mentorship/Teaching\n4. Learning\nhttps://t…","tweetTime":"Tue Apr 25 21:34:36 +0000 2017"}
+{"tweetNumber":3,"tweetText":"RT @JavaScriptDaily: Simple Slider: A 1KB JavaScript Carousel - https://t.co/I3RO3P8xfm (An extremely lightweight carousel micro library. D…","tweetTime":"Tue Apr 25 21:33:42 +0000 2017"}
+{"tweetNumber":4,"tweetText":"RT @gamespot: Marvel Vs. Capcom: Infinite new official trailer, release date, and characters revealed! https://t.co/KT4Qf9hGYS https://t.co…","tweetTime":"Tue Apr 25 21:31:42 +0000 2017"}
+{"tweetNumber":5,"tweetText":"RT @JavaScriptDaily: Presenting the \"sleep sort\", our favorite O(wtf) sorting algorithm. (C'mon, it's the weekend..) 😂 https://t.co/VTz5WPH…","tweetTime":"Tue Apr 25 21:30:40 +0000 2017"}
+{"tweetNumber":6,"tweetText":"RT @_ericelliott: Stop building new stuff now and then. Instead:\n1. Validate existing features\n2. Burn down tech debt\n3. Burn down bugs\n4.…","tweetTime":"Tue Apr 25 21:30:31 +0000 2017"}
+{"tweetNumber":7,"tweetText":"RT @dan_abramov: Wouldn’t it be cool if Chrome let us “Inspect in React DevTools” from context menu? Star this issue if you agree 🌟 https:/…","tweetTime":"Tue Apr 25 21:29:12 +0000 2017"}
+{"tweetNumber":8,"tweetText":"Amazing how life events bring people back together.","tweetTime":"Thu Apr 20 21:47:45 +0000 2017"}
+{"tweetNumber":9,"tweetText":"Thinking about personal project ideas. Going to make a dedicated.io for the new wife.","tweetTime":"Thu Apr 20 20:34:57 +0000 2017"}
+{"tweetNumber":10,"tweetText":"RT @TheTylt: O'Reilly is off the air and the world says #ByeBillOReilly 😂https://t.co/A4kmQSqQjS","tweetTime":"Thu Apr 20 20:18:34 +0000 2017"}
+{"tweetNumber":11,"tweetText":"RT @JavaScriptDaily: How to Build a Simple Blog Using Node: https://t.co/outTgVkvDl","tweetTime":"Thu Apr 20 18:21:43 +0000 2017"}
+{"tweetNumber":12,"tweetText":"RT @TSMReginald: Can't believe I'm 25 now. Started TSM when I was 17...","tweetTime":"Thu Apr 20 17:59:17 +0000 2017"}
+{"tweetNumber":13,"tweetText":"RT @bettyniner: Big data @unccharlotte welcomes @GovRoyCooper we are driving the economy w talent,research and partnerships https://t.co/cO…","tweetTime":"Thu Apr 20 17:59:05 +0000 2017"}
+{"tweetNumber":14,"tweetText":"Super pumped to be working with Node.js","tweetTime":"Thu Apr 20 17:39:43 +0000 2017"}
+{"tweetNumber":15,"tweetText":"Getting married in 2 days, super excited!","tweetTime":"Thu Apr 20 17:38:24 +0000 2017"}
+{"tweetNumber":16,"tweetText":"Coding on the brain! Ready to tackle the next project!","tweetTime":"Thu Apr 20 17:15:49 +0000 2017"}
+{"Artist":"Ace of Base","Name":"The Sign","PreviewURL":"https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=null","Album":"The Sign (US Album) [Remastered]"}
+[object Object]
+{"Artist":"Ace of Base","Name":"The Sign","PreviewURL":"https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=null","Album":"The Sign (US Album) [Remastered]"}
+{"Artist":"Ace of Base","Name":"The Sign","PreviewURL":"https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=null","Album":"The Sign (US Album) [Remastered]"}
+spotify-this-song
+spotify-this-song
+spotify-this-song
+spotify-this-song
