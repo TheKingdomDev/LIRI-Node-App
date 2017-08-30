@@ -53,7 +53,7 @@ function reqTweets(){
 	};
         //use the twitter key and parameters to get data from the API - loop over and print out each of the tweets to the console
 		client.get('statuses/user_timeline', params, function(error, tweets, response) {
-		  	
+		  	// console.log(response)
 		  	if (!error) {
 		    	for (i=0; i<tweets.length; i++){
 		    		console.log(i + " " + tweets[i].text + " Time Created: " + tweets[i].created_at);
@@ -74,29 +74,11 @@ function reqTweets(){
 }
 //spotify-this-song - Make a request to the Spotify API about the song input and return Artist(s), Song Name, Preview Link, Album, if no song provided play "The Sign" by Ace of Base
 
-//create a function that will log out the full song log for the search - append that data as JSON
-// function showSong(track){
-// 	console.log(track.artists[0].name);
-// 	console.log(track.name);
-// 	console.log(track.preview_url);
-// 	console.log(track.album.name);
-// 	// appendLog(track.artists[0].name);
-// 	// appendLog(track.name);
-// 	// appendLog(track.preview_url);
-// 	// appendLog(track.album.name);
-// 	var songLog ={
-// 		Artist: track.artists[0].name,
-// 		Name: track.name,
-// 		PreviewURL: track.preview_url,
-// 		Album: track.album.name
-// 	}
-//     //append to log.txt
-// 	appendLog(JSON.stringify(songLog));
-// }
 //request to spotify based on the userSearch loop over the data and store the track - if nothing is entered by the user play "The Sign"
 function reqSongs(song) {
     if (userSearch) {
         spotify.search({ type: 'track', query: userSearch }, function(err, data) {
+        	// console.log(data)
             if (err) {
                 console.log('Error occurred: ' + err);
                 return;
@@ -132,39 +114,7 @@ function reqSongs(song) {
     }
 
 }
-    //req to spotify - query is userSearch
-	// spotify.search({ type: 'track', query: userSearch }, function(err, data) {
-	//     if ( err ) {
-	//         console.log('Error occurred: ' + err);
-	//         return;
-	//     	}else{
-    //         //loop over the data
-	//     	for(i=0; i<data.tracks.items.length; i++){
-    //             //store it
-	//     		var track = data.tracks.items[i];
-    //             // check if they match and call the show song function
-	//     		if (userSearch.length != 0){
-	//     			showSong("The Sign");
-	//     			return;
-	//     		}else{
-	// 				showSong(track);
-	// 			}
-	//     	}
-            //req to spotify if no input, the req proceeds and returns "The Sign"
-		 	// spotify.search({ type: 'track', query: userSearch }, function(err, data) {
-		    // 		if ( err ) {
-		    //     		console.log('Error occurred: ' + err);
-		    //     		return;
-		    // 		}else{
-		    // 			for(i=0; i<data.tracks.items.length; i++){
-		    // 				var track = data.tracks.items[i];
-			// 				if (track.name.toLowerCase() === "The Sign".toLowerCase()){
-			// 					showSong(track);
-			// 					return;
-			// 				}
-		    // 			}
-		    // 		}
-		    // });
+
 //movie-this - console the following data from a movie entered after the command.
 //    * Title of the movie.
 //    * Year the movie came out.
@@ -207,6 +157,7 @@ function reqMovie(){
 function goLIRI(){
 	//call the require and add the read method, pass in random.txt as a parameters
 	fs.readFile('random.txt', 'utf8', function(error,data){
+		// console.log(data)
 		//take the data and split it
 		var defaultData = data.split(',');
         //log out the data
