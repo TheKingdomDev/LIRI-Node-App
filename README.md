@@ -18,7 +18,7 @@ Fork it!
 Navigate to the folder of the project - 
 
     npm install
-	node server.js
+	node liri.js
 
 # Author
 Eric King
